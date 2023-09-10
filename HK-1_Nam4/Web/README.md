@@ -9,5 +9,5 @@
   * https://github.com/PTIT-Project/lap-trinh-web
 
 - Requirements:
-Không dùng framework code chay, có cơ sở dữ liệu
-backend yêu cầu java
+ * Không dùng framework code chay, có cơ sở dữ liệu
+ * backend yêu cầu java
