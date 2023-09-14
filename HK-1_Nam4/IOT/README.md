@@ -34,5 +34,6 @@
 - https://linux.how2shout.com/how-to-install-mosquitto-in-ubuntu-22-04-or-20-04-lts/
 - https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/?fbclid=IwAR0ToenxoCBbklh9IZ3RwWGv6C4nd2AIrqgNbxFo0G54Ez-8o85iN7wzpx8
 - https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/?fbclid=IwAR16tQIhXgkn1lHMSWzJ9eOIn6pOHdf8D-3zS1lQmtXNdizj9exVdFiz_BI
+- ...
   
 
