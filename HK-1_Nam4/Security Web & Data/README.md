@@ -4,3 +4,4 @@
 
 - https://www.youtube.com/watch?v=9enxgQes33s&list=PLRoAKls-7kksI-BbBn_ihFB9sRjSrDrs4
 - https://www.youtube.com/watch?v=OUlLQK_gN8k
+- web: how to structure a web application with the mvc pattern
