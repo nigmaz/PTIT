@@ -12,4 +12,4 @@
   * Không dùng framework code chay, có cơ sở dữ liệu
   * backend yêu cầu java
 
-- wget -r <linkweb>
+- wget -r .linkweb.
