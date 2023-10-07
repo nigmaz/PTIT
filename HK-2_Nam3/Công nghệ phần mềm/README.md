@@ -5,3 +5,6 @@
   * 3. Thiết kế tĩnh: thiết kế giao diện và vẽ biểu đồ lớp MVC chi tiết cho module (View, Control, Model).
   * 4. Thiết kế động: vẽ biểu đồ tuần tự mô tả tuần tự hoạt động của module (Object, Message, Time). [|--O, O, _O_]
   * 5. Viết một testcase chuẩn cho module này.
+- References:
+  * https://learn.viblo.asia/en/courses/cong-nghe-phan-mem-QnXe0Rvbxr/exams/78
+  * ...
