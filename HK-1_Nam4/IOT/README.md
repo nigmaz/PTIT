@@ -35,6 +35,7 @@
 - https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/?fbclid=IwAR0ToenxoCBbklh9IZ3RwWGv6C4nd2AIrqgNbxFo0G54Ez-8o85iN7wzpx8
 - https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/?fbclid=IwAR16tQIhXgkn1lHMSWzJ9eOIn6pOHdf8D-3zS1lQmtXNdizj9exVdFiz_BI
 - https://randomnerdtutorials.com/esp8266-nodemcu-mqtt-publish-dht11-dht22-arduino/
+- Template: https://www.google.com/search?sca_esv=572136157&sxsrf=AM9HkKlV19WsCDLbjf-AsaCMWBF0HqMbYQ:1696920804248&q=bootstrap+template&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjl3_7N8uqBAxWonFYBHezmA-sQ0pQJegQIDhAB&biw=1280&bih=605&dpr=1.5#imgrc=PNaQyTrx219MsM
 - ...
   
 
