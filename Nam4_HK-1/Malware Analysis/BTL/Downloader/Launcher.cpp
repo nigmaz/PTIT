@@ -1,0 +1,27 @@
+#include "Launcher.h"
+
+
+bool Launch(std::string backDoorPath, LPCWSTR backDoorIOC)
+{
+	//Execute malware
+	WCHAR malwarePath[MAX_PATH];
+	swprintf_s(malwarePath, MAX_PATH, L"%S", backDoorPath.c_str());
+
+	SHELLEXECUTEINFOW ExecuteInfo;
+
+	memset(&ExecuteInfo, 0, sizeof(ExecuteInfo));
+
+	ExecuteInfo.cbSize = sizeof(ExecuteInfo);
+	ExecuteInfo.fMask = 0;
+	ExecuteInfo.hwnd = 0;
+	ExecuteInfo.lpVerb = L"open";           // Operation to perform
+	ExecuteInfo.lpFile = malwarePath;		// Application name
+	ExecuteInfo.lpParameters = backDoorIOC; // Additional parameters
+	ExecuteInfo.lpDirectory = 0;            // Default directory
+	ExecuteInfo.nShow = SW_SHOW;
+	ExecuteInfo.hInstApp = 0;
+	if (ShellExecuteExW(&ExecuteInfo) == FALSE)
+		// Could not start application -> call 'GetLastError()'
+		return false;
+	return true;
+}
