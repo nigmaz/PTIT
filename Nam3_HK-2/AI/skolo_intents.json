@@ -1,0 +1,31 @@
+{
+  "intents": [
+    
+    {"tag": "goodbye",
+     "patterns": ["Tạm biệt!", "Hẹn gặp lại bạn sau.", "Goodbye.", "Bye.", "Bye bye."],
+     "responses": ["Tạm biệt, hẹn gặp lại bạn một ngày gần nhất!", "Nice to meet you!"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Cảm ơn", "Cảm ơn shop ạ", "Cảm ơn bạn đã tư vấn","thank you","thanks","thanks shop"],
+     "responses": ["Rất vui khi giúp được bạn!", "Shop cảm ơn bạn,hẹn gặp bạn một dịp gần nhất!", "Yeah, tôi bắt đầu tháy thích bạn rồi đó<3"]
+    },
+   
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are","tên của bạn là gì"],
+      "responses": ["I am Python chatbot", "My name is Python chatbot", "You can call me whatever you want, somthing like: Trần Đức Bo"]
+      },
+      {"tag": "options",
+       "patterns": ["Tôi có thể mua hàng không?", "Tôi có thể mua các sản phẩm khác không?"],
+       "responses": ["Các sản phẩm bên shop có size từ S -> XL", "Shop xin chiều cao và cân nặng để tư vấn chuẩn size cho anh/chị nhé!"]
+      },
+      {"tag": "greeting",
+        "patterns": ["xin chào", "Bạn có ở đó không?", "Chúc một ngày tốt lành!", "hi", "hello"],
+        "responses": ["Chào bạn! Bạn cần tư vấn mẫu nào ạ?", "Vâng, tôi có thể giúp gì cho bạn?", "Cảm ơn bạn đã nhắn tin cho shop, bạn cần chúng tôi giúp gì không ạ?"]
+       },
+       {"tag": "noanswer",
+        "patterns": [],
+        "responses": ["Xin lỗi, bạn có gì không hiểu ạ? ", "Xin hãy nói với chúng tôi vấn đề bạn đang thắc mắc.", "Bạn có thể nói chi tiết hơn được không, tôi không hiểu.", "Chúng tôi đang chờ phản hồi từ bạn"]
+      }
+      
+  ]
+}
