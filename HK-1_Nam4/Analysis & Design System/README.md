@@ -1,1 +1,0 @@
-# Analysis & Design System
