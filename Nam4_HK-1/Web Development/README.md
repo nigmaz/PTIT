@@ -13,3 +13,9 @@
   * backend yêu cầu java
 
 - wget -r .linkweb.
+- tomcat netbeans
+
+```
+admin
+admin
+```
