@@ -1,7 +1,9 @@
-# HK-1_Nam4
-- Malware Analysis - `T2`
-- Security Web & Data - `T3`
-- Web - `T3`
-- Analysis & Design System - `T4`
-- IOT - `T5`
-- Security Network - `T6`
+# Nam2_HK-1
+
+- Chủ nghĩa xã hội khoa học `2T`.			
+- Tiếng Anh (Course 2) `4T`.	
+- Vật lý 3 và thí nghiệm `4T`.		
+- Kiến trúc máy tính `3T`.		
+- Ngôn ngữ lập trình C++ `3T`.	
+- Toán rời rạc 1 `3T`.		
+- Kỹ năng làm việc nhóm `1T`.
