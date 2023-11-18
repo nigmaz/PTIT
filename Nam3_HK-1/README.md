@@ -7,4 +7,3 @@
 - Lập trình hướng đối tượng
 - Cơ sở an toàn thông tin			
 - Hệ điều hành Windows và Linux/Unix
-- 
