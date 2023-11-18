@@ -1,7 +1,8 @@
-# HK-1_Nam4
-- Malware Analysis - `T2`
-- Security Web & Data - `T3`
-- Web - `T3`
-- Analysis & Design System - `T4`
-- IOT - `T5`
-- Security Network - `T6`
+# Nam1_HK-1
+- Triết học Mác Lênin `3T`.
+- Đại số `3T`.
+- Giải tích 1 `3T`.
+- Tin học cơ sở 1 `2T`.
+- Giáo dục thể chất 1 `2T`.
+- Giáo dục quốc phòng `7,5T`.
+
