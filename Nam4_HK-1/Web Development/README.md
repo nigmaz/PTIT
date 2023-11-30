@@ -12,10 +12,5 @@
   * Không dùng framework code chay, có cơ sở dữ liệu
   * backend yêu cầu java
 
-- wget -r .linkweb.
-- tomcat netbeans
+- wget -r `link-web`
 
-```
-admin
-admin
-```
