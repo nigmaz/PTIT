@@ -9,7 +9,7 @@
 - Requirements:
 
   - Không dùng framework, có cơ sở dữ liệu.
-  - Backend yêu cầu Java.
+  - Backend yêu cầu Java, JSP and Apache Tomcat.
   - Keyword search google: Web application for cinema using JSP and Servlets.
 
 - SRC GITHUB code references:
