@@ -26,4 +26,5 @@
 - `Trang web quản trị cho Admin (CMS)`: https://github.com/PTIT-Project/lap-trinh-web
 - `Source code btl website Đặt Mua Vé Xem Phim Online | Java Spring Boot - MySQL - AJAX`: https://youtu.be/w3QmdZSshag
 - `Source code website Quản Lý Tòa Nhà Văn Phòng - Spring boot - React JS`: https://youtu.be/0PPzWgRxpFk
+- `Công ty Electro là doanh nghiệp kinh doanh thiết bị điện tử`: https://github.com/dangfsix/electro
 - `Playlist Project Java`: https://www.youtube.com/watch?v=WKL0jsNrFzY&list=PL8JRkLx_73-KoDilxKX-DT5it1xlhj5f-
