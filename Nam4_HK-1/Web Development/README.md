@@ -18,7 +18,11 @@
   - https://github.com/YehorLiannyk/cinema-webapp-java-servlet
   - `Video youtube`: https://www.youtube.com/watch?v=3ZHR1aQsmf0
 
-- https://docs.google.com/document/d/18eiPqefZ_2ish-8Hb8Zy9Mht-V4c-ml8P69VE42O3Nw/mobilebasic
+- `LEARN`:
+  - https://www.youtube.com/watch?v=fU14j5AZbSs
+  - https://www.youtube.com/@AnhNguyenNgoc/playlists
+  - https://phoenixnap.com/kb/install-tomcat-windows
+  - https://vovanhai.wordpress.com/web/jsp/c%E1%BA%A5u-hinh-tomcat-trong-netbeans/
 
 ## [1]. References:
 
