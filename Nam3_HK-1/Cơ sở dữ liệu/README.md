@@ -9,3 +9,4 @@
  
 - https://codelearn.io/learning/lam-quen-voi-sql
 - https://codelearn.io/learning/thuc-hanh-voi-sql
+- https://topdev.vn/blog/tong-hop-nhung-cau-lenh-sql-co-ban/
