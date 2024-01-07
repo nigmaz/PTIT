@@ -1,6 +1,8 @@
 # Web Development
 
 - `Clone web src frontend`: wget -r [link-web]
+- `Learn`: https://fullstack.edu.vn/learning-paths
+
 
 ## [0]. Project BTL
 
