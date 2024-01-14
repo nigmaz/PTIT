@@ -1,5 +1,6 @@
 # Cơ sở dữ liệu
 
+- Nhớ học cả về thiết kế, primary key, foreign key, index, các dạng BCNF, cách viết query sao cho hiệu quả, cách thiết kế bảng sao cho tối ưu nhưng vẫn dễ mở rộng về sau
 - https://www.w3schools.com/sql/default.asp
 - https://sqliteonline.com/
 - https://youtu.be/PSNXoAs2FtQ?si=_4JQli1lSzNGBD-7
