@@ -1,7 +1,13 @@
-# HK-1_Nam4
-- Malware Analysis - `T2`
-- Security Web & Data - `T3`
-- Web - `T3`
-- Analysis & Design System - `T4`
-- IOT - `T5`
-- Security Network - `T6`
+# HK-2_Nam4
+
+## [0]. Kỹ thuật giấu tin
+
+## [1]. Kiểm thử xâm nhập
+
+## [2]. An toàn Mạng nâng cao
+
+## [3]. Android Development
+
+## [4]. Quản lý an toàn thông tin
+
+## [5]. Kỹ thuật theo dõi, giám sát an toàn mạng
